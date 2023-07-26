@@ -1,14 +1,12 @@
 public class Main {
     public static void main(String[] args) {
-        String str = "apple";
+        String a = "1234";
+        String b = "5678";
 
-        char[] a = str.toCharArray();
+        Integer total = 0;
 
-        for (char b : a) {
-            System.out.println(b);
-        }
+        total = Integer.valueOf(a) + Integer.valueOf(b);
 
-        String exam = new String(a);
-        System.out.println(exam);
+        System.out.println("total = " + total);
     }
 }
