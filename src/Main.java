@@ -1,12 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        String a = "1234";
-        String b = "5678";
+        int num = 456;
+        String result = "";
 
-        Integer total = 0;
+        if (num % 2 == 0) {
+            result = "even";
+        } else {
+            result = "odd";
+        }
 
-        total = Integer.valueOf(a) + Integer.valueOf(b);
+        System.out.println("result = " + result);
 
-        System.out.println("total = " + total);
+        result = (num % 2 == 0) ? "even" : "odd";
+        System.out.println("result = " + result);
     }
 }

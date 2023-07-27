@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="문자열자르기.md">
-      <change afterPath="$PROJECT_DIR$/Java/문자를정수로변환.md" afterDir="false" />
+    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="문자를정수로변환.md">
+      <change afterPath="$PROJECT_DIR$/Java/삼항연산자.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBoot/core" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBoot/core" afterDir="false" />
@@ -99,13 +99,22 @@
       <option name="project" value="LOCAL" />
       <updated>1690248543990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="문자를정수로변환.md">
+      <option name="closed" value="true" />
+      <created>1690335006918</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690335006918</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="문자열 반복.md" />
     <MESSAGE value="문자열자르기.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="문자열자르기.md" />
+    <MESSAGE value="문자를정수로변환.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="문자를정수로변환.md" />
   </component>
 </project>
