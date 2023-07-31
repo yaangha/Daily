@@ -1,12 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        String str = "apple";
-        char[] ch = str.toCharArray();
+        String str = "012-345-678";
+        String[] a = str.split("-");
 
-
-        for (char a : ch) {
-            System.out.println("a = " + a);
+        for (String b : a) {
+            System.out.println("b = " + b);
         }
-        
     }
 }
