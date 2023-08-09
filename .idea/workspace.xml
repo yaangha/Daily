@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="sql 공부 1일차">
+    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="sql 공부 2일차">
+      <change afterPath="$PROJECT_DIR$/Java/정수를문자로변환.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SQL/Sql03.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SQL/Sql01.md" beforeDir="false" afterPath="$PROJECT_DIR$/SQL/Sql01.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691390919245</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="sql 공부 2일차">
+      <option name="closed" value="true" />
+      <created>1691460252029</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1691460252029</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -230,7 +239,8 @@
     <MESSAGE value="디자인패턴.md" />
     <MESSAGE value="StringBuilder에대하여.md.md" />
     <MESSAGE value="sql 공부 1일차" />
-    <option name="LAST_COMMIT_MESSAGE" value="sql 공부 1일차" />
+    <MESSAGE value="sql 공부 2일차" />
+    <option name="LAST_COMMIT_MESSAGE" value="sql 공부 2일차" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
