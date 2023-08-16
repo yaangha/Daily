@@ -51,3 +51,17 @@ public class Main {
     }
 }
 ```
+
+### repeat()
+* 문자열을 반복하고자 할 때 사용 
+* String 타입 리턴
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        String s = "hello";
+        System.out.println(s.repeat(3));
+        // hellohellohello 출력
+    }
+}
+```
