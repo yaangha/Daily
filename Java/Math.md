@@ -31,3 +31,20 @@ public class Main {
     }
 }
 ```
+
+### Math.floor(double a)
+* 소수점 버리고자 할 때 사용
+* 리턴값은 double(xxx.0 형태)
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        double a = 3.14;
+        double b = Math.floor(a);
+        int c = (int) b;
+        
+        System.out.println("b = " + b); // 3.0
+        System.out.println("c = " + c); // 3
+    }
+}
+```
