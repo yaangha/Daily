@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="SQL9_10.md">
-      <change afterPath="$PROJECT_DIR$/SQL/Sql11.md" afterDir="false" />
+    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="Sql11.md.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java/Stream.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Stream.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -326,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692327815799</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Sql11.md.md">
+      <option name="closed" value="true" />
+      <created>1692446416055</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1692446416055</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -354,7 +363,8 @@
     <MESSAGE value="Sql09.md" />
     <MESSAGE value="LocalDate.md" />
     <MESSAGE value="SQL9_10.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQL9_10.md" />
+    <MESSAGE value="Sql11.md.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sql11.md.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

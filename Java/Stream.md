@@ -80,6 +80,41 @@ public class Main {
 }
 ```
 
+### boxed
+* int와 같은 원시 타입의 stream을 클래스 타입(Integer..)으로 전환하기 위한 메소드
+
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr = {1, 2, 3};
+        
+        // int 타입 배열을 List로 변환하고자 할 때 boxed() 사용함
+        List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
+    }
+}
+```
+
 ### 결과
 * 사용할 결과값으로 만드는 최종 단계
-* 
+
+```java
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class Main {
+    public static void main(String[] args) {
+        int[] arr1 = {3, 2, 1};
+
+        // List
+        List<Integer> list = Arrays.stream(arr1).boxed().collect(Collectors.toList());
+
+        // Array
+        int[] array = Arrays.stream(arr1).sorted().toArray();
+    }
+}
+```
