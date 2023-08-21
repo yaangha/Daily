@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="Sql11.md.md">
+    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="stream">
+      <change afterPath="$PROJECT_DIR$/SQL/Sql12.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/Stream.md" beforeDir="false" afterPath="$PROJECT_DIR$/Java/Stream.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -335,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1692446416055</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="stream">
+      <option name="closed" value="true" />
+      <created>1692583402822</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1692583402822</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first commit" />
     <MESSAGE value="문자열 반복.md" />
     <MESSAGE value="문자열자르기.md" />
     <MESSAGE value="문자를정수로변환.md" />
@@ -364,7 +370,8 @@
     <MESSAGE value="LocalDate.md" />
     <MESSAGE value="SQL9_10.md" />
     <MESSAGE value="Sql11.md.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sql11.md.md" />
+    <MESSAGE value="stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
