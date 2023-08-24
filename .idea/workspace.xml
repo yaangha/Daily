@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="SQL11.md">
-      <change afterPath="$PROJECT_DIR$/SQL/Sql13.md" afterDir="false" />
+    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="SQL12.md">
+      <change afterPath="$PROJECT_DIR$/SQL/Sql14.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -350,11 +350,18 @@
       <option name="project" value="LOCAL" />
       <updated>1692600898877</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="SQL12.md">
+      <option name="closed" value="true" />
+      <created>1692674277804</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1692674277804</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="문자열자르기.md" />
     <MESSAGE value="문자를정수로변환.md" />
     <MESSAGE value="삼항연산자.md" />
     <MESSAGE value="배열인트로.md" />
@@ -379,7 +386,8 @@
     <MESSAGE value="Sql11.md.md" />
     <MESSAGE value="stream" />
     <MESSAGE value="SQL11.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQL11.md" />
+    <MESSAGE value="SQL12.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL12.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
