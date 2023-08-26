@@ -48,3 +48,23 @@ public class Main {
     }
 }
 ```
+
+### Math.abs()
+* 절대값을 구할 때 사용
+* 파라미터는 int, long, float, double 가능
+* 음수 -> 양수, 양수 -> 양수 
+
+```java
+public class Main {
+    public static void main(String[] args) {
+        int a = 123;
+        int b = -123;
+
+        int r1 = Math.abs(a);
+        int r2 = Math.abs(b);
+
+        System.out.println("r1 = " + r1); // r1 = 123
+        System.out.println("r2 = " + r2); // r2 = 123
+    }
+}
+```
