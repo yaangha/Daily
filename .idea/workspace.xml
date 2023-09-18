@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="Math.md">
-      <change afterPath="$PROJECT_DIR$/SQL/Sql16_19.md" afterDir="false" />
+    <list default="true" id="7dc14307-f6d2-4b8b-94d1-54b8396798fc" name="Changes" comment="SQL insert, update, delete 공부">
+      <change afterPath="$PROJECT_DIR$/ETC/RESTful.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ETC/URI_URL.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBoot/01_intro.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../portfolio" beforeDir="false" afterPath="$PROJECT_DIR$/../portfolio" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -383,11 +385,18 @@
       <option name="project" value="LOCAL" />
       <updated>1693019739761</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="SQL insert, update, delete 공부">
+      <option name="closed" value="true" />
+      <created>1694417298633</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1694417298633</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="배열인트로.md" />
     <MESSAGE value="배열모음집.md" />
     <MESSAGE value="aboutString.md" />
     <MESSAGE value="문자열자르기.md update" />
@@ -412,7 +421,8 @@
     <MESSAGE value="SQL14.md" />
     <MESSAGE value="SQL15.md" />
     <MESSAGE value="Math.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Math.md" />
+    <MESSAGE value="SQL insert, update, delete 공부" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL insert, update, delete 공부" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
