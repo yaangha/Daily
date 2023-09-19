@@ -55,3 +55,40 @@ public class ExampleApplication {
 ```
 server.port=8080 //-> 원하는 포트번호
 ```
+
+## 컨트롤러 빈으로 등록하기
+* @Controller 어노테이션으로 사용해도 되지만, 스프링 4부터 지원하는 @RestController를 사용해도 된다.
+* @RestController를 사용하면 REST 방식의 응답을 처리하는 컨트롤러를 구현할 수 있다. (리턴되는 문자열이 그대로 브라우저에 출력되므로 별도로 View 화면을 만들 필요 X)
+  * @Controller는 리턴 문자열에 해당하는 View를 만들어야 한다. 
+* main() 메서드가 있는 Application 클래스에 있는 @SpringBootApplication 어노테이션이 같은 패키지에 있는 클래스들을 자동으로 빈 등록해준다. (패키지가 다르면 직접 Application에 등록해야 함)
+  * @SpringBootApplication 어노테이션에 @ComponentScan이 들어있기 때문에!
+
+```java
+@RestController
+public class SampleController {
+    
+}
+```
+
+## REST 컨트롤러 사용하기
+* View를 만들지 않는 대신에 메소드가 리턴한 문자열을 그대로 클라이언트에 전달한다. 
+  * 자바 객체일 경우에는 JSON으로 자동 변환된다. 
+
+### 문자열을 리턴할 경우
+리턴한 문자열 그대로 브라우저에 출력된다. 
+
+### VO(Value Object)를 리턴할 경우
+VO 객체를 JSON 데이터로 변환하여 출력한다. 
+
+### 컬렉션을 리턴하는 경우
+여러 객체를 리턴하는 경우(array, list, ...)에도 JSON으로 변환하여 출력한다. 
+
+## 롬복 사용하기
+자동으로 생성자, Getter, Setter, toString() 등 코드들을 추가해주는 라이브러리이다. 
+* 롭복 제공 어노테이션
+  * @Getter
+  * @Setter
+  * @RequiredArgsConstructor: 모든 멤버 변수를 초기화하는 생성자를 만들어 줌
+  * @ToString
+  * @EqualsAndHashCode: equals(), hashCode() 메소드를 만들어줌
+  * @Date: @Getter, @Setter, @RequiredArgsConstructor, @ToString, @EqualsAndHashCode 모두를 포함
