@@ -2,6 +2,10 @@
 
 * Math 클래스의 모든 메소드는 static method(정적 메소드)이기 때문에 import 없이 바로 사용할 수 있음
 
+```java
+import java.lang.Math;
+```
+
 ### Math.pow(double a, double b) 
 * power을 뜻하며 제곱하라는 의미
 * double 타입을 리턴
