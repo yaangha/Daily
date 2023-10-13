@@ -33,3 +33,22 @@ public class Main {
     }
 }
 ```
+
+### Arrays.asList(array).indexOf(obj)
+* 배열에서는 indexOf() 메서드를 사용할 수 없다. 그렇기때문에 배열을 리스트로 변환하고 사용해야 한다.
+* Arrays.asList(배열이름).indexOf(object o)
+
+```java
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        String[] arr = {"a", "b", "c"};
+
+        // b의 인덱스는?
+        int indexOfB = Arrays.asList(arr).indexOf("b");
+        System.out.println("indexOfB = " + indexOfB);
+        // indexOfB = 1
+    }
+}
+```
