@@ -88,3 +88,27 @@ public class Main {
     }
 }
 ```
+
+### clear()
+* Stack의 값을 모두 제거하고자 할 때 사용
+
+```java
+import java.util.Stack;
+
+public class Main {
+    public static void main(String[] args) {
+        Stack<Integer> stk = new Stack<>();
+        stk.push(1);
+        stk.push(2);
+        
+        // empty() -> 스택이 비어있으면 true, 그렇지 않으면 false 반환
+        boolean bool_1 = stk.empty();
+        
+        // clear() -> 스택의 값을 모두 제거함
+        stk.clear();
+        boolean bool_2 = stk.empty();
+        System.out.println("bool_1 = " + bool_1); // bool_1 = false
+        System.out.println("bool_2 = " + bool_2); // bool_2 = true
+    }
+}
+```
