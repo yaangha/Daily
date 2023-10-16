@@ -1,5 +1,9 @@
 ## Stack 클래스
 
+```
+A more complete and consistent set of LIFO stack operations is provided by the Deque interface and its implementations, which should be used in preference to this class. 
+```
+* Stack.java 문서를 보면 Stack 보다는 **Deque**를 사용할 것을 권장하고 있다.
 * 쌓는다는 의미의 자료구조로 **LIFO(Last In First Out)** 형태를 가진다.
 * 먼저 들어간 자료가 제일 마지막에 나온다. (= 마지막에 들어간 자료가 먼저 나온다.)
 
